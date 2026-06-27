@@ -1,0 +1,61 @@
+/* ==========================================
+   DeMerzli Footer v1.0
+========================================== */
+
+.footer{
+
+    margin-top:60px;
+
+    background:rgba(10,10,10,.95);
+
+    border-top:2px solid rgba(214,0,0,.35);
+
+    backdrop-filter:blur(10px);
+
+}
+
+.footer-content{
+
+    max-width:1450px;
+
+    margin:auto;
+
+    padding:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+    color:#bfbfbf;
+
+}
+
+.footer-version{
+
+    color:#2ecc71;
+
+    font-weight:bold;
+
+}
+
+.footer a{
+
+    color:#fff;
+
+    text-decoration:none;
+
+    transition:.25s;
+
+}
+
+.footer a:hover{
+
+    color:#ff4040;
+
+}
